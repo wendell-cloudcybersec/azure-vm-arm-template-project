@@ -1,0 +1,42 @@
+Azure VM Deployment Output Log
+
+Deployment Date: 06 June 2026
+
+Resource Group:
+ARMProjectRG
+
+Virtual Machine:
+armprojectvm
+
+Private IP Address:
+10.0.1.4
+
+Public IP Address:
+20.12.230.225
+
+Public IP Resource:
+studentvm-pip
+
+Public IP Resource ID:
+/subscriptions/7faf9142-a492-4ba1-824f-6efafe88e631/resourceGroups/ARMProjectRG/providers/Microsoft.Network/publicIPAddresses/studentvm-pip
+
+IP Allocation Method:
+Static
+
+Deployment Status:
+Provisioning Succeeded
+
+SSH Verification:
+Connection successfully established to Ubuntu 22.04 virtual machine.
+
+Verification Commands:
+
+hostname
+whoami
+uname -a
+
+Results:
+
+Hostname: armprojectvm
+Username: azureuser
+Operating System: Ubuntu 22.04 LTS
